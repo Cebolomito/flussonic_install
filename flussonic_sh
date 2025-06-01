@@ -1,5 +1,5 @@
 #Permissão para executar scrip
-chmod +x flussonic_install.sh
+chmod +x flussonic_sh
 
 #Atualizando pacotes
 apt update && apt upgrade -y
