@@ -5,8 +5,5 @@ chmod +x flussonic_sh
 apt update && apt upgrade -y
 
 #Escrip instalação
-#!/bin/bash
-mkdir /usr/local/src/flussonic
-cd /usr/local/src/flussonic
 curl -sSf https://flussonic.com/public/install.sh | sh
 systemctl start flussonic
