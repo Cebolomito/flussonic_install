@@ -1,4 +1,5 @@
 vim flussonic_install.sh
+apt update upgrade -y
 #!/bin/bash
 mkdir /usr/local/src/flussonic
 cd /usr/local/src/flussonic
