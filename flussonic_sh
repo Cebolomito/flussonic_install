@@ -1,9 +1,6 @@
 #Permissão para executar scrip
 chmod +x flussonic_sh
 
-#Atualizando pacotes
-apt update && apt upgrade -y
-
 #Escrip instalação
 curl -sSf https://flussonic.com/public/install.sh | sh
 systemctl start flussonic
