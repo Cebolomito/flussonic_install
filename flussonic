@@ -1,5 +1,13 @@
+#Criando arquivo de instalação
 vim flussonic_install.sh
-apt update upgrade -y
+
+#Permissão para executar scrip
+chmod +x flussonic_install.sh
+
+#Atualizando pacotes
+apt update && apt upgrade -y
+
+#Escrip instalação
 #!/bin/bash
 mkdir /usr/local/src/flussonic
 cd /usr/local/src/flussonic
