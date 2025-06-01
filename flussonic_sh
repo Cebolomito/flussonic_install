@@ -1,6 +1,3 @@
-#Permissão para executar scrip
-chmod +x flussonic_sh
-
 #Escrip instalação
 curl -sSf https://flussonic.com/public/install.sh | sh
 systemctl start flussonic
