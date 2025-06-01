@@ -1,6 +1,3 @@
-#Criando arquivo de instalação
-vim flussonic_install.sh
-
 #Permissão para executar scrip
 chmod +x flussonic_install.sh
 
