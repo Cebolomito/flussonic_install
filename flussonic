@@ -1,6 +1,6 @@
+vim flussonic_install.sh
 #!/bin/bash
 mkdir /usr/local/src/flussonic
-chmod +x /usr/local/src/flussonic
 cd /usr/local/src/flussonic
 curl -sSf https://flussonic.com/public/install.sh | sh
 systemctl start flussonic
